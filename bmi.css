@@ -1,0 +1,228 @@
+.container{
+    width :30%;
+    height: 500px;
+    border: 2px solid;
+    background-color: rgb(203, 203, 203);
+    margin: auto;   
+}
+h1{
+margin-left: 40px;
+}
+
+.bmi-calculator{
+width: 90%;
+height: 300px;
+border-radius: 5%;
+margin: auto;
+background-color: black;
+}
+
+.height{
+    width: 80%;
+    margin-left: 29px;
+    margin-top: 20%;
+    background-color: bisque;
+    box-shadow: 0px 5px 5px 0px rgb(88, 88, 88);
+}
+.weight{
+    width: 80%;
+    margin-left: 29px;
+    margin-top: 20%;
+    background-color: bisque;
+    box-shadow: 0px 5px 5px 0px rgb(88, 88, 88);
+
+}
+#calculate{
+    width: 50%;
+    height: 10%;
+    margin-left: 86px;
+    margin-top: 7%;
+    border-radius: 20px;
+    background-color: green;
+}
+.result{
+    width: 50%;
+    height: 10%;
+    margin-left: 86px;
+    margin-top: 7%;
+    box-shadow: inset 10px 10px 5px 0px rgb(0, 0, 0),
+     10px 10px 5px 0px rgb(248, 248, 248), 5px 5px 2px 0px gray;
+    border-radius: 10%;
+    /* box-shadow: 10px 10px 5px 0px black, 5px 5px 2px 0px gray; */
+    text-align: center;
+}
+@media (max-width : 1536px){
+  .container{
+    max-width: 1280px;
+  } 
+  h1{
+    margin-left: 88px;
+    }
+    .height{
+        width: 83%;
+        /* margin-left: 29px; */
+        margin-top: 10%;
+    }
+    .weight{
+        width: 83%;
+        /* margin-left: 29px; */
+        margin-top: 15%;
+    }
+    #calculate{
+        margin-left: 24%;
+    }
+    .result{
+        margin-left: 24%;
+    }
+}   
+@media (max-width : 1280px){
+    .container{
+      max-width: 1024px;
+    } 
+    h1{
+        margin-left: 55px;
+        font-size: 30px;
+        }
+
+  }   
+
+  @media (max-width : 1024px){
+    .container{
+      max-width: 768px;
+      width: 50%;
+    } 
+        h1{
+            margin-left: 98px;
+            }
+            .height{
+                width: 83%;
+                /* margin-left: 29px; */
+                margin-top: 10%;
+            }
+            .weight{
+                width: 83%;
+                /* margin-left: 29px; */
+                margin-top: 15%;
+            }
+            #calculate{
+                margin-left: 24%;
+            }
+            .result{
+                margin-left: 24%;
+            }
+  }   
+  @media (max-width :  768px){
+    .container{
+      max-width: 640px;
+      width: 60%;
+    } 
+    h1{
+        margin-left: 88px;
+        /* font-size: 30px; */
+        }
+        .height{
+            width: 83%;
+            /* margin-left: 29px; */
+            margin-top: 10%;
+        }
+        .weight{
+            width: 83%;
+            /* margin-left: 29px; */
+            margin-top: 15%;
+        }
+        #calculate{
+            margin-left: 24%;
+        }
+        .result{
+            margin-left: 24%;
+        }
+
+  }   
+  @media (max-width : 640px){
+    .container{
+      max-width: 475px;
+      width: 100%;
+    } 
+    h1{
+        margin-left: 88px;
+        /* font-size: 30px; */
+        }
+        .height{
+            width: 83%;
+            /* margin-left: 29px; */
+            margin-top: 10%;
+        }
+        .weight{
+            width: 83%;
+            /* margin-left: 29px; */
+            margin-top: 15%;
+        }
+        #calculate{
+            margin-left: 24%;
+        }
+        .result{
+            margin-left: 24%;
+        }
+  }   
+  @media (max-width : 475px){
+    .container{
+      width: 100%;
+    } 
+    h1{
+        margin-left: 37px;
+        font-size: 30px;
+        }
+        #calculate{
+            margin-left: 24%;
+        }
+        .result{
+            margin-left: 24%;
+        }
+        
+  }   
+  @media (max-width : 394px){
+    .container{
+      width: 100%;
+    } 
+    h1{
+        margin-left: 50px;
+        font-size: 30px;
+        }
+        .height{
+            width: 80%;
+            /* margin-left: 29px; */
+            margin-top: 10%;
+        }
+        .weight{
+            width: 80%;
+            /* margin-left: 29px; */
+            margin-top: 15%;
+        }
+        #calculate{
+            margin-left: 25%;
+        }
+        .result{
+            margin-left: 25%;
+        }
+  }   
+  @media (max-width:413px){
+    h1{
+        margin-left: 54px;
+       
+        }
+
+  }
+  @media (max-width:362px){
+    h1{
+        margin-left: 59px;
+        font-size: 25px;
+        }
+
+  }
+  @media (max-width:820px){
+    h1{
+        margin-left: 59px;
+        /* font-size: 25px; */
+        }
+
+  }
